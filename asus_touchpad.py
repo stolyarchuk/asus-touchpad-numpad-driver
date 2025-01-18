@@ -132,7 +132,7 @@ dev = Device()
 dev.name = "Asus Touchpad/Numpad"
 dev.enable(EV_KEY.KEY_LEFTSHIFT)
 dev.enable(EV_KEY.KEY_NUMLOCK)
-dev.enable(calculator_key)
+# dev.enable(calculator_key)
 
 for col in model_layout.keys:
     for key in col:
